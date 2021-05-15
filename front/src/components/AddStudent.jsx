@@ -38,7 +38,7 @@ export class AddStudent extends React.Component{
                 <input className="form-control" type="text" name="firstname" id="firstnameInput" required/>
                 <label for="lastname">Last Name:</label>
                 <input className="form-control" type="text" name="lastname" id="lastnameInput"  required/>
-                <div className="g-recaptcha" data-sitekey="6LcQCdQaAAAAAJDJgyyNaSNGCQo7kJPKXA-PZv57"></div>
+                <div className="g-recaptcha" data-sitekey="my-key-here"></div>
             <br/>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
